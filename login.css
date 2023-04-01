@@ -1,0 +1,34 @@
+body{
+    background-image: none;
+}
+
+.cover{
+    border-radius: 4px 0px 0px 4px;
+}
+
+.box{
+    width: auto;
+}
+
+.spacing{
+    letter-spacing: 5px;
+}
+
+.box-desc{
+    font-size: 5px;
+    color: #fff;
+    font-weight: bold;
+    max-width: auto;
+}
+
+.judul{
+    color: burlywood;
+}
+
+.text-bold{
+    font-weight: bold;   
+}
+
+.btn{
+    background-color: burlywood;
+}

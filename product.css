@@ -1,0 +1,77 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+.banner{
+  height: 60vh;
+  background: url('assets/banner2.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content{
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-2{
+  font-family: 'Rosario', Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.display-5{
+  font-family: 'Rosario', Arial, Helvetica, sans-serif;
+}
+
+.fs-5{
+    color: goldenrod ;
+}
+
+.card-img-top{
+  border-radius: 20px;
+}
+
+.card-img-top{
+  border-radius: 20px;
+  opacity: 1;
+  display: block;
+  width:auto;
+  height:auto;
+  transition: .3s ease;
+  backface-visibility: hidden;
+}
+
+.container-overlay {
+  position: relative;
+  width: auto;
+}
+
+
+.middle {
+  transition: .3s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: -20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-overlay:hover .card-img-top {
+  opacity: 0.2;
+}
+
+.container-overlay:hover .middle {
+  opacity: 1;
+}
+
+p{
+  text-align: justify;
+}

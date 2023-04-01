@@ -1,0 +1,57 @@
+body{
+  font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+  }
+  
+  .banner{
+    height: 60vh;
+    background: url('assets/banner5.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .banner-content{
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .display-2{
+    font-family: 'Rosario', sans-serif;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .display-4{
+    font-family: 'Rosario', sans-serif;
+  }
+  
+  .line{
+    size: 10px;
+  }
+
+  .fs-2{
+    margin-top: 30px;
+  }
+
+  .fs-5{
+    text-align: justify;
+  }
+
+  .tim img {
+    width: 250px;
+    height: 250px;
+    border-radius: 60px;
+  }
+
+  a.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color:#fff;
+    border-radius: 50px;
+    background-color: #333;
+    line-height: 40px;
+  }

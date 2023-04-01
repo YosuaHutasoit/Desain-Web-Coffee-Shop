@@ -1,0 +1,52 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.cover{
+    border-radius: 10px 10px 10px 10px;
+}
+
+.box{
+    width: 100%;
+}
+
+.spacing{
+    letter-spacing: 5px;
+}
+
+.box-desc{
+    font-size: 9px;
+    color: #fff;
+    font-weight: bold;
+    max-width: 300px;
+}
+
+.hr{
+    height: 8px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin: 16px;
+}
+
+.judul{
+    color: #030303;
+}
+
+.desc{
+    font-size: 14px;
+    color: #c7c8ca;
+    margin-top: 24px;
+}
+
+.text-bold{
+    font-weight: bold;   
+}
+
+.link{
+    text-decoration:underline;
+    color: #030303;
+    font-weight: bold;
+}
